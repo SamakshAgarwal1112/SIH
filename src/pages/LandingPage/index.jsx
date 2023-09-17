@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Box,
   Stack,
@@ -51,6 +52,9 @@ export default function LandingPage() {
     transition: 'all .5s',
     ml: `-${currentSlide * 100}%`,
   };
+
+  const navigate = useNavigate();
+
   return (
     <>
       <Navbar />
@@ -79,6 +83,10 @@ export default function LandingPage() {
                     src={slide.img}
                     alt="carousel image"
                     objectFit="contain"
+                    cursor="pointer"
+                    onClick={() => {
+                      navigate('/profile');
+                    }}
                   />
                   <Stack
                     p="8px 12px"
