@@ -1,5 +1,11 @@
+import Profile from './components/index.jsx';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Profile />
+    </>
+  );
 }
 
 export default App;
