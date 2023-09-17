@@ -1,5 +1,6 @@
 import React from 'react';
-import { Flex, Text, Box, Link } from '@chakra-ui/react';
+import { Flex, Text, Box } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (

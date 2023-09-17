@@ -54,8 +54,7 @@ export default function LandingPage() {
   return (
     <>
       <Navbar />
-
-      <Flex >
+      <Flex>
         <SidePanel />
         <Flex
           alignItems="center"
@@ -66,7 +65,7 @@ export default function LandingPage() {
           ml="2rem"
           width="full"
         >
-          <Flex pos="relative" overflow="hidden" borderRadius="1rem" >
+          <Flex pos="relative" overflow="hidden" borderRadius="1rem">
             <Flex h="41.6rem" w="full" {...carouselStyle}>
               {slides.map((slide, sid) => (
                 <Box
