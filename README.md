@@ -9,9 +9,9 @@ It will bring together the entire AYUSH Startup community at the global level th
 # <img src="https://github.com/NightFury742/LaundriX/assets/119070798/ec2ddfa4-c318-4a76-9296-872e8d5fab3f" height="30px"> Features
 
 * Category wise startup listing (New, Trending, Medicine-Related, Services-Related, etc.)
-* Profile page for every startup which will give details of the startup like when it was established and by whom, the vision of startup, etc.
+* Profile page/server for every startup which will give details of the startup like when it was established and by whom, the vision of startup, etc.
 * Analytics of each startup showing whether startup is booming or not.
-* Chat-Bot, Voice Call and Video Call features for communication.
+* Chat-Bot, Voice Call and Video Call features for communication in all servers.
 * Showcase Page for each startup for them to present their products and services for everyone.
 * Mentorship section for already established large-scale Startups and experienced members of AYUSH to guide/educate other small-scale or new startups or general audience.
 * Knowledge Repository (Includes research papers, case-studies, best practices related to AYUSH)
