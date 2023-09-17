@@ -16,7 +16,7 @@ const Profile = () => {
           <Flex
             align="center"
             w="100%"
-            bgImage={'/assets/herbalTree.svg'}
+            bgImage={'/assets/HerbalTree.svg'}
             aspectRatio={'1280/738'}
             bgRepeat={'no-repeat'}
             bgSize={'cover'}
@@ -131,7 +131,7 @@ const Profile = () => {
             <Text color={'#637E44'} fontSize={'64px'} fontWeight={700}>
               Our Locations
             </Text>
-            <Image src="/assets/location.png"></Image>
+            <Image src="/assets/Location.svg"></Image>
           </Flex>
           <Flex
             direction={'column'}
