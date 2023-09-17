@@ -4,7 +4,6 @@ import {
   Box,
   Flex,
   Text,
-  Image,
   Input,
   InputGroup,
   InputRightElement,
@@ -25,7 +24,7 @@ function SignupPage() {
     <>
       <Navbar />
       <Center>
-        <Flex align="center" justify="space-evenly" w="80%" pt="2rem" >
+        <Flex align="center" justify="space-evenly" w="80%" pt="2rem">
           <Box
             display="flex"
             flexDirection="column"
@@ -52,7 +51,13 @@ function SignupPage() {
             <Text color="#ffffff" fontSize="42px" zIndex="1" fontWeight="700">
               Welcome to Sangam!
             </Text>
-            <Text color="#ffffff" fontSize="21px" zIndex="1" fontWeight="thin" width="470px">
+            <Text
+              color="#ffffff"
+              fontSize="21px"
+              zIndex="1"
+              fontWeight="thin"
+              width="470px"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Text>
@@ -137,7 +142,7 @@ function SignupPage() {
               w="220px"
               h="55px"
               mt="12"
-              borderRadius="17px"
+              borderRadius="18px"
               color="#ffffff"
               bg="#83A98E"
               fontSize="20px"

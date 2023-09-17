@@ -3,12 +3,7 @@ import {
   Box,
   Flex,
   Text,
-  Image,
-  Input,
-  InputGroup,
-  InputRightElement,
   VStack,
-  Link as ChakraLink,
   Button,
   Center,
   Radio,
@@ -17,11 +12,6 @@ import {
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 function RegisterPage() {
-  const customRadioStyles = {
-    // width: "40px",     // Adjust the width as needed
-    // height: "40px",    // Adjust the height as needed
-    fontSize: '28px', // Adjust the font size as needed
-  };
   return (
     <>
       <Navbar />
@@ -103,7 +93,7 @@ function RegisterPage() {
                 w="220px"
                 h="55px"
                 mt="12"
-                borderRadius="17px"
+                borderRadius="18px"
                 color="#ffffff"
                 bg="#83A98E"
                 fontSize="20px"
