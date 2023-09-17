@@ -36,6 +36,13 @@ It will bring together the entire AYUSH Startup community at the global level th
 * Node.js
 * Express
 * Mongo DB
+* Googel OAuth
+
+## Others
+* Zustand
+* Husky
+  
+
 <Br><Br>
 
 # <img height="35px" src="https://github.com/NightFury742/LaundriX/assets/119070798/a573e013-ec6c-43f3-a6a9-aaa080be7731"> Prerequisites
