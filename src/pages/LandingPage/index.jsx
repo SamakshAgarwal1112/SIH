@@ -82,8 +82,9 @@ export default function LandingPage() {
                   <Image
                     src={slide.img}
                     alt="carousel image"
-                    objectFit="contain"
+                    objectFit="fill"
                     cursor="pointer"
+                    w="full"
                     onClick={() => {
                       navigate('/profile');
                     }}
