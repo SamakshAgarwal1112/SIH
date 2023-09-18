@@ -17,6 +17,8 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import Navbar from '../../components';
 
 function SignupPage() {
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const handleShowPassword = () => setShowPassword(!showPassword);
 
@@ -100,6 +102,7 @@ function SignupPage() {
               />
               <Input
                 type="email"
+                // value={email}
                 fontSize="20px"
                 color="#637E44"
                 placeholder="Email"
@@ -116,6 +119,7 @@ function SignupPage() {
               <InputGroup userSelect="none">
                 <Input
                   type={showPassword ? 'text' : 'password'}
+                  // value={password}
                   fontSize="20px"
                   color="#637E44"
                   placeholder="Password"

@@ -16,27 +16,26 @@ const breakpoints = {
 };
 
 const theme = extendTheme({
-  colors: {},
   breakpoints,
   components: {
     Radio: {
       baseStyle: {
         control: {
-          borderColor: "#637E44",
+          borderColor: '#637E44',
         },
       },
       defaultProps: {
-        colorScheme: "custom",
+        colorScheme: 'custom',
       },
       sizes: {
         lg: {
           control: {
-            width: "25px",
-            height: "25px",
+            width: '25px',
+            height: '25px',
           },
-          label:{
-            fontSize: "24px",
-            marginLeft: "30px",
+          label: {
+            fontSize: '24px',
+            marginLeft: '30px',
           },
         },
       },
@@ -44,7 +43,7 @@ const theme = extendTheme({
   },
   colors: {
     custom: {
-      500: "#637E44",
+      500: '#637E44',
     },
   },
 });
