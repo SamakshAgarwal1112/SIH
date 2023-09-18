@@ -34,8 +34,8 @@ function Navbar() {
             fontWeight="light"
             w="21.8rem"
           >
-            <Link>
-              <Text>Lorem</Text>
+            <Link to={'signup'}>
+              <Text>SignUp</Text>
             </Link>
             <Link>
               <Text>Lorem</Text>
