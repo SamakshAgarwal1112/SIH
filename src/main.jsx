@@ -16,8 +16,36 @@ const breakpoints = {
 };
 
 const theme = extendTheme({
-  colors: {},
   breakpoints,
+  components: {
+    Radio: {
+      baseStyle: {
+        control: {
+          borderColor: '#637E44',
+        },
+      },
+      defaultProps: {
+        colorScheme: 'custom',
+      },
+      sizes: {
+        lg: {
+          control: {
+            width: '25px',
+            height: '25px',
+          },
+          label: {
+            fontSize: '24px',
+            marginLeft: '30px',
+          },
+        },
+      },
+    },
+  },
+  colors: {
+    custom: {
+      500: '#637E44',
+    },
+  },
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
